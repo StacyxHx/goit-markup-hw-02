@@ -65,7 +65,17 @@ list-style:none;
 }
 
 .hero-title{
-    color:var(--primaty-text-color);
+    color:var(--primary-bg-color);
+    text-align: center;
+}
+
+.hero{
+    background:#2F303A;
+}
+
+.hero .order{
+    color:var(--primary-bg-color);
+    background:var(--accent-color)
 }
 
 
@@ -113,6 +123,10 @@ list-style:none;
     background:#2F303A;
 }
 
-.section-prtf .caption .descript{
+.section-portf .galery{
+    list-style:none;
+}
+
+.section.index .descript{
     color:#757575;
 }
