@@ -9,9 +9,14 @@
 body{
     background-color: var(--primary-bg-color);
     color:var(--primaty-text-color);
+    cursor:pointer;
+    font-weight: 400;
 }
 .logo{
     color:var(--title-text-color);
+    font-size: ;
+    font-weight:700;
+
 }
 
 .logo:hover{
@@ -54,9 +59,6 @@ list-style:none;
 }
 
 .section .section.index {
-    list-style:none;
-}
-.section .section.index{
     list-style:none;
 }
 
@@ -129,4 +131,8 @@ list-style:none;
 
 .section.index .descript{
     color:#757575;
+}
+
+.section.xxx{
+    background-color:#F5F4FA;
 }
