@@ -10,13 +10,18 @@ body{
     background-color: var(--primary-bg-color);
     color:var(--primaty-text-color);
     cursor:pointer;
-    font-weight: 400;
+    font-family: Roboto, cursive;
 }
+
 .logo{
     color:var(--title-text-color);
-    font-size: ;
+    font-family: Raleway, sans-serif;
+    text-align: left;
+    letter-spacing: 0,03em;
+    font-style:none;
+    font-size:26px;
+    line-height:3,85;
     font-weight:700;
-
 }
 
 .logo:hover{
@@ -118,7 +123,7 @@ list-style:none;
 
 .address a{
     text-decoration:none;
-    color:var(--primary-bg-color)
+    color:var(--primary-bg-color);
 }
 
 .address{
