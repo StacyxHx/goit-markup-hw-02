@@ -199,3 +199,6 @@ h2{
     display:inline;
 }
 
+.logo .accent{
+    color:var(--accent-color);
+}
