@@ -22,14 +22,21 @@ body{
     font-size:26px;
     line-height:3,85;
     font-weight:700;
+    text-decoration: none;
+    line-height:30,52;
 }
 
-.logo:hover{
-    color:var(--accent-color);
+ .span .accent {
+    color:#2196F3;
+    
 }
 
 .site-nav{
     list-style:none;
+    font-size:14px;
+    font-weight:500;
+    font-family: Roboto, sans-serif;
+    line-height:16,41px;
 }
 
 .site-nav .link{
@@ -74,6 +81,10 @@ list-style:none;
 .hero-title{
     color:var(--primary-bg-color);
     text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    text-transform:uppercase;
+    line-height:60px;
 }
 
 .hero{
@@ -82,7 +93,8 @@ list-style:none;
 
 .hero .order{
     color:var(--primary-bg-color);
-    background:var(--accent-color)
+    background:var(--accent-color);
+    font-size:16px;
 }
 
 
@@ -112,13 +124,13 @@ list-style:none;
     text-decoration: none;
 }
 
-.logo{
-    text-decoration: none;
-}
-
-
 .address .address.index{
     list-style:none;
+    line-height:24px;
+}
+
+.list.index{
+    line-height:24px;
 }
 
 .address a{
@@ -128,6 +140,10 @@ list-style:none;
 
 .address{
     background:#2F303A;
+    font-size:14px;
+    font-weight:400;
+    font-style:normal;
+    line-height: 24px;
 }
 
 .section-portf .galery{
@@ -136,8 +152,50 @@ list-style:none;
 
 .section.index .descript{
     color:#757575;
+    font-weight:400;
+    font-size:16px;
 }
 
 .section.xxx{
     background-color:#F5F4FA;
 }
+
+
+.title{
+    font-weight:700;
+    font-size:14px;
+    line-height:16,41;
+}
+
+h2{
+    text-align:center;
+    font-weight:700;
+    font-size:36px;
+    line-height:42,19px;
+}
+
+.section.index .opys{
+    color:#757575;
+    font-weight:400;
+    font-size:14px;
+    line-height:24px;
+}
+
+.pracivnyk{
+    font-weight:500;
+    font-size:16px;
+}
+
+.list.index .info.ind{
+    color:rgba(255, 255, 255, o.6);
+}
+
+.info.ind:focus,
+.info.ind:hover{
+    color:var(--accent-color);
+}
+
+.section.index .image{
+    display:inline;
+}
+

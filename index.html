@@ -12,7 +12,7 @@
     <header class="page-header">
       <!--Навігація сторінки-->
       <nav>
-        <a class="logo" href="./index.html">WebStudio</a>
+        <a class="logo" href="./index.html"><span class="accent"></span>WebStudio</a>
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -41,31 +41,30 @@
       <!--Особливості-->
       <div>
       <section class="section">
-        <h2 class="section-title">Особливості</h2>
         <ul class="section index">
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="opys">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="opys">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <h3 class="title">ПЛАНУВАННЯ</h3>
+            <p class="opys">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="opys">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -96,22 +95,22 @@
         <ul class="section index">
           <li>
             <img src="./img/img.jpg" alt="Фото працівника" width="270" class="image"/>
-            <h3>Ігор Дем'яненко</h3>
+            <h3 class="pracivnyk">Ігор Дем'яненко</h3>
             <p class="descript">Product Designer</p>
           </li>
           <li>
             <img src="./img/img1.jpg" alt="Фото працівника" width="270" class="image"/>
-            <h3>Ольга Рєпіна</h3>
+            <h3 class="pracivnyk">Ольга Рєпіна</h3>
             <p class="descript">Frontend Developer</p>
           </li>
           <li>
             <img src="./img/img2.jpg" alt="Фото працівника" width="270" class="image"/>
-            <h3>Микола Тарасов</h3>
+            <h3 calss="pracivnyk">Микола Тарасов</h3>
             <p class="descript">Marketing</p>
           </li>
           <li>
             <img src="./img/img3.jpg" alt="Фото працівника" width="270" class="image"/>
-            <h3>Михайло Єрмаков</h3>
+            <h3 class="pracivnyk">Михайло Єрмаков</h3>
             <p class="descript">UI Designer</p>
           </li>
         </ul>
@@ -122,7 +121,14 @@
       <!--Контактна інформація-->
     
       <address class="address">
-        <a href="./index.html" class="logo">WebStudio</a>
+        <a class="logo" href="./index.html">WebStudio
+        <style> 
+          a { 
+    color:#18A0FB ; 
+          } 
+        </style> 
+        </a>
+       </span>
         <ul class="address index">
           <li>
             <a
@@ -130,13 +136,15 @@
               >м. Київ, пр-т. Лесі Українки, 26</a
             >
           </li>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+          </ul>
+          <ul class="list index"> 
+            <li>
+              <a href="mailto:info@devstudio.com" class="info ind">info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="info ind">+38 096 111 11 11</a>
+            </li>
+          </ul>
       </address>
     </footer>
   </body>
