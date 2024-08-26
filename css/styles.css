@@ -5,6 +5,13 @@
     --primary-bg-color:#ffffff;
 }
 
+*, 
+*::before,
+*::after{box-sizing:border-box;}
+
+html{
+    box-sizing: border-box;
+}
 
 body{
     background-color: var(--primary-bg-color);
@@ -41,6 +48,9 @@ body{
 
 .site-nav .link{
     color:var(--title-text-color);
+    text-decoration: none;
+    display:flex;
+flex-wrap:nowrap;
 }
 
 .site-nav .link:hover,
@@ -48,12 +58,25 @@ body{
     color:var(--accent-color);
 }
 
+.link{
+    flex-wrap:nowrap;
+    display:flex; 
+}
 .site-nav .link.current{
     color:var(--accent-color);
+    display:flex;
+flex-wrap:nowrap;
+}
+
+.navigate > .site-nav{
+display:flex;
+flex-wrap:nowrap;
 }
 
 .list{
 list-style:none;
+display:flex;
+flex-wrap:nowrap;
 }
 
 
@@ -64,7 +87,9 @@ list-style:none;
 
 .list .info{
     color:#757575;
+    text-decoration: none;
 }
+    
 
 .section{
     list-style:none;
@@ -89,12 +114,14 @@ list-style:none;
 
 .hero{
     background:#2F303A;
+    padding:120px;
 }
 
 .hero .order{
     color:var(--primary-bg-color);
     background:var(--accent-color);
     font-size:16px;
+    align-self:flex-end;
 }
 
 
@@ -102,6 +129,7 @@ list-style:none;
     list-style:none;
     color:var(--title-text-color);
     background-color:var(--primary-bg-color);
+    border:1px solid transparent;
 }
 
 .button .button.version{
@@ -116,13 +144,6 @@ list-style:none;
     color:var(--primary-bg-color);
 }
 
-.list .info{
-    text-decoration: none;
-}
-
-.site-nav .link{
-    text-decoration: none;
-}
 
 .address .address.index{
     list-style:none;
