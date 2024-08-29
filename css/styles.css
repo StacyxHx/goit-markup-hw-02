@@ -15,7 +15,7 @@ html{box-sizing:border-box;}
 body{
     background-color: var(--primary-bg-color);
     color:var(--primaty-text-color);
-    cursor:pointer;
+    cursor:auto;
     font-family: Roboto, cursive;
 }
 
@@ -143,10 +143,13 @@ flex-wrap:nowrap;
     color:var(--primary-bg-color);
     background:var(--accent-color);
     font-size:16px;
+    cursor:pointer;
 }
 
 .order{
     align-self:self-start;
+    padding:20px;
+    align-self: center;
 }
 
 .button{
@@ -154,6 +157,7 @@ flex-wrap:nowrap;
     color:var(--title-text-color);
     background-color:var(--primary-bg-color);
     border:1px solid transparent;
+    align-content:center
 }
 
 .button .button.version{
@@ -166,6 +170,7 @@ flex-wrap:nowrap;
 .button .button.version:active{
     background-color:#2196F3;
     color:var(--primary-bg-color);
+    cursor:pointer;
 }
 
 
@@ -241,10 +246,24 @@ h2{
     color:var(--accent-color);
 }
 
-.section.index .image{
-    display:inline;
+.section{
+    width:1230px;
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.section.index .box{
+    width:380px;
+    padding-left:15px;
+    padding-right:15px;
 }
 
 .logo .accent{
     color:var(--accent-color);
 }
+
+
+  
+ 
