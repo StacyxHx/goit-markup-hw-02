@@ -35,9 +35,11 @@ body{
  .span .accent {
     color:#2196F3;
 }
-.site-nav .link:last-child{
+.site-nav .link:first-child{
     margin-right:50px;
    }
+
+
 
 .site-nav .link:not(:last-child){
 margin-right:0px;
@@ -102,7 +104,7 @@ flex-wrap:nowrap;
     margin-left:50px;
 }
    
-.list.index{
+.list:first-child{
     margin-left:0px;
 }
     .list{
@@ -111,6 +113,11 @@ flex-wrap:nowrap;
         justify-content: flex-end;
         margin-left:auto;
         padding-right:40px;
+    }
+
+    .list{
+        display:flex;
+        justify-content:flex-start;
     }
 
 .section{
@@ -132,7 +139,10 @@ flex-wrap:nowrap;
     font-size: 44px;
     text-transform:uppercase;
     line-height:60px;
+    padding:50px;
+    margin-bottom:0;
 }
+
 
 .hero{
     background:#2F303A;
@@ -146,10 +156,13 @@ flex-wrap:nowrap;
     cursor:pointer;
 }
 
+
 .order{
-    align-self:self-start;
+    display:flex;
+    text-align:flex-start;
+    flex-direction:column;
     padding:20px;
-    align-self: center;
+    margin:auto;
 }
 
 .button{
@@ -157,7 +170,7 @@ flex-wrap:nowrap;
     color:var(--title-text-color);
     background-color:var(--primary-bg-color);
     border:1px solid transparent;
-    align-content:center
+    align-content:center;
 }
 
 .button .button.version{
@@ -208,6 +221,9 @@ flex-wrap:nowrap;
 
 .section.xxx{
     background-color:#F5F4FA;
+    margin-top:200px;
+    padding-left:1000;
+    padding-right:50;
 }
 
 
@@ -218,17 +234,19 @@ flex-wrap:nowrap;
 }
 
 h2{
-    text-align:center;
     font-weight:700;
     font-size:36px;
     line-height:42,19px;
+    text-align: center;
 }
 
 .section.index .opys{
-    color:#757575;
     font-weight:400;
     font-size:14px;
     line-height:24px;
+}
+.opys{
+    color:#757575;
 }
 
 .pracivnyk{
@@ -264,6 +282,23 @@ h2{
     color:var(--accent-color);
 }
 
+.section.index-02 li{
+width:270px;
+padding-right: 30px;
+}
 
-  
- 
+.section.index-02{
+    margin-top:90px;
+    margin-bottom:100px;
+}
+.section.index-02 li:last-child{
+    padding-right: 0;
+}
+
+.jpeg img{
+    padding-right:30px;
+}
+
+.title-t{
+    margin-bottom:50px;
+}
