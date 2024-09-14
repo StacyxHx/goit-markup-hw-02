@@ -57,7 +57,7 @@ margin-right:0px;
     color:var(--title-text-color);
     text-decoration: none;
     display:flex;
-flex-wrap:nowrap;
+    flex-wrap:nowrap;
 }
 
 .site-nav .link:hover,
@@ -65,11 +65,6 @@ flex-wrap:nowrap;
     color:var(--accent-color);
 }
 
-.link{
-    flex-wrap:nowrap;
-    display:flex; 
-   
-}
 .site-nav .link.current{
     color:var(--accent-color);
     display:flex;
@@ -221,9 +216,9 @@ flex-wrap:nowrap;
 
 .section.xxx{
     background-color:#F5F4FA;
-    margin-top:200px;
-    padding-left:1000;
-    padding-right:50;
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
 }
 
 
@@ -301,4 +296,8 @@ padding-right: 30px;
 
 .title-t{
     margin-bottom:50px;
+}
+
+.section-index.xxx .jpeg:first-child{
+    padding-right:200px;
 }
