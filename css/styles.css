@@ -3,6 +3,7 @@
     --title-text-color:#000000;
     --accent-color:#18A0FB;
     --primary-bg-color:#ffffff;
+    --secondary-bg-color:#
 }
 
 *,
@@ -298,6 +299,4 @@ padding-right: 30px;
     margin-bottom:50px;
 }
 
-.section-index.xxx .jpeg:first-child{
-    padding-right:200px;
-}
+
